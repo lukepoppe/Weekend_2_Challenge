@@ -1,0 +1,26 @@
+ ul.menu {
+            display: block;
+            position: relative;
+            list-style: none;
+            background-color: yellow;
+            font-weight: bold;
+            width: 150px;
+        }
+
+        li > ul.subMenu {
+            display: none;
+            list-style: none;
+            background-color: yellow;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        ul.subMenu > li {
+            display: block;
+
+        }
+
+        li:hover ul.subMenu {
+            display: block;
+            position: absolute;
+        }
