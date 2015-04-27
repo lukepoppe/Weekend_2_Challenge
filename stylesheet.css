@@ -1,26 +1,40 @@
- ul.menu {
-            display: block;
-            position: relative;
-            list-style: none;
-            background-color: yellow;
-            font-weight: bold;
-            width: 150px;
-        }
+.teamSizeButton, .refreshButton, .inactive {
+  background-color:#07AA9E;
+    border-radius:28px;
+    border-radius:28px;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    text-align: center;
+        margin-right: auto;
+    margin-left: auto;
+}
 
-        li > ul.subMenu {
-            display: none;
-            list-style: none;
-            background-color: yellow;
-            font-weight: bold;
-            white-space: nowrap;
-        }
+.teamContainer { 
+    width: 900px;
+    display: block;
+    float: left;
+     background-color:#07AA9E;
+     vertical-align: center;
+     border-radius:28px;
+    border-radius:28px;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
 
-        ul.subMenu > li {
-            display: block;
-
-        }
-
-        li:hover ul.subMenu {
-            display: block;
-            position: absolute;
-        }
+.nameList {
+    width: 150px;
+    display: inline-block;
+    float: left;
+}
